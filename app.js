@@ -6,7 +6,7 @@ btn.addEventListener('click', function () {
     const b = Math.floor(Math.random() * 255);
     const newColor = `rgb(${r}, ${g}, ${b})`
     document.body.style.backgroundColor = newColor;
-    document.querySelector('h3').innerText = `COLOR_CODE: ${newColor}`;
+    document.querySelector('h3').innerText = `COLOR CODE: ${newColor}`;
 })
 
 
